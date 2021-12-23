@@ -3,7 +3,7 @@ export default [
 		chapter: 1, 
 		studies: [
 			{
-				title: 'Genesis 1:1-15 The Testing of Faith', 
+				title: 'Test 1:1-15 The Testing of Faith', 
 				audio: 'https://mcdn.podbean.com/mf/web/2c7yir/James_01A.mp3', 
 				outline: 'wordfile'
 			},
