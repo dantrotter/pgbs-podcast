@@ -8,7 +8,7 @@ export default [
 				outline: 'wordfile'
 			},
 			{
-				title: 'Genesis 1:16-27* How Not to be Hung with the Tongue', 
+				title: 'Test 1:16-27* How Not to be Hung with the Tongue', 
 				audio: 'https://mcdn.podbean.com/mf/web/2c7yir/James_01A.mp3', 
 				outline: 'wordfile'
 			}
