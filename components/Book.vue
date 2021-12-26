@@ -11,7 +11,9 @@
 							</ol>
 						</li>
 				</ol>
-		</div>
+			</li>
+		</ol>
+	</div>
 </template>
 
 <script>
@@ -30,10 +32,11 @@
 					books: books,
 					friendlyName: this.name.replace(/-/g, ' ').replace(/(^\w|\s\w)/g, w => w.toUpperCase())
 				}
+		},
+		data(){
+			return {
+				books: { genesis, james }
 			}
+		}
 	}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
