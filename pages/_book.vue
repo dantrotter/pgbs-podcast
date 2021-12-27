@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <p-menu />
+  <div class="wrapper">
+    <p-header />
     <p-book :name="this.$route.params.book" />
   </div>
 </template>
 
 <script>
-import PMenu from '/components/Menu.vue';
+import PHeader from '/components/Header.vue';
 import PBook from '/components/Book.vue';
 
 export default {
   name: 'Book',
-  components: { PMenu, PBook }
+  components: { PHeader, PBook }
 }
 </script>

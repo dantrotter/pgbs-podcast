@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <p-menu />
-    Content
+  <div class="wrapper">
+    <p-header />
+    <main>
+      <p>Content</p>
+    </main>
   </div>
 </template>
 
 <script>
-import PMenu from '/components/Menu.vue';
+import PHeader from '/components/Header.vue';
 
 export default {
   name: 'IndexPage',
-  components: { PMenu }
+  components: { PHeader }
 }
 </script>

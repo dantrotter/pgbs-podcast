@@ -1,5 +1,5 @@
 <template>
-		<div>
+		<main>
 				<h1>{{ friendlyName }}</h1>
 				<ol>
 						<li v-for="chapter in books[friendlyName]" :key="chapter">
@@ -11,9 +11,7 @@
 							</ol>
 						</li>
 				</ol>
-			</li>
-		</ol>
-	</div>
+	</main>
 </template>
 
 <script>
@@ -32,11 +30,6 @@
 					books: books,
 					friendlyName: this.name.replace(/-/g, ' ').replace(/(^\w|\s\w)/g, w => w.toUpperCase())
 				}
-		},
-		data(){
-			return {
-				books: { genesis, james }
-			}
 		}
 	}
 </script>

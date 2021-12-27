@@ -39,7 +39,8 @@ export default {
       '@nuxtjs/amp',
       { 
         origin: process.env.ORIGIN_URL || 'http://localhost:3000',
-        mode: 'only'
+        mode: 'only',
+        css: '~/static/styles.css'
       }
     ]
   ],
