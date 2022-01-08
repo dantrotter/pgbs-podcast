@@ -20280,18 +20280,22 @@ feed.channel.item.forEach(item => {
    const parts = title.split(' ');
    let bookName;
    let bookChapter;
+   let chapterVerse;
    if(parts[0] === '1' || parts[0] === '2' || parts[0] === '3' || parts[0] === '4') {
       bookName = parts[0] + ' ' + parts[1];
       bookChapter = +(parts[2].split(':')[0]);
+      verse = parseInt(parts[2].split(':')[1]);
    } else {
       bookName = parts[0];
       bookChapter = +(parts[1].split(':')[0]);
+      verse = parseInt(parts[1].split(':')[1]);
    }
 
    const study = {
       title: title, 
       audio: mp3, 
-      outline: outline
+      outline: outline,
+      verse: verse ? verse : 0
    }
 
    if (!books[bookName]) {
@@ -20311,5 +20315,18 @@ feed.channel.item.forEach(item => {
       }
    }
 });
-// console.log(books);
+
+// sort studies by verse
+for (const book in books) {
+   for (const chapter in books[book]) {
+      if(books[book][chapter]) {
+         const studies = books[book][chapter].studies;
+         let uniq = {}
+         books[book][chapter].studies = studies.sort((a, b) => a.verse - b.verse).filter(study => !uniq[study.title] && (uniq[study.title] = true));
+         for (const study in books[book][chapter].studies)
+            delete books[book][chapter].studies[study].verse;
+      }
+   }
+ }
+
 fs.writeFile('data/books.js', `export default ${JSON.stringify(books, null, 2)}`, function(){console.log('done')});
