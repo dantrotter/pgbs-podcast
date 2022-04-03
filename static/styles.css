@@ -113,7 +113,7 @@ header {
   padding: .5em;
 }
 
-.bible-menu .i-amphtml-accordion-header {
+.bible-menu h2 {
   border: 0;
   background-color: transparent;
 }
