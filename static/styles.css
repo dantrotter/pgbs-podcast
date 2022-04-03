@@ -102,6 +102,7 @@ header {
 
 .book-list li li {
   list-style-type: square;
+  margin-bottom: .5em;
 }
 
 .book-header {
