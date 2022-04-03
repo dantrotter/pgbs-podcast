@@ -1,15 +1,17 @@
 <template>
   <header>
-    <NuxtLink to="/">PGBS</NuxtLink>
-    <p-menu />
+    <NuxtLink to="/" class="logo">
+      <img src="~/static/PGBS.svg" /> <h1>Pretty Good Bible Studies</h1>
+    </NuxtLink>
+    <p-bible-menu />
   </header>
 </template>
 
 <script>
-  import PMenu from '/components/Menu.vue';
+  import PBibleMenu from '/components/BibleMenu.vue';
 
   export default {
     name: 'Header',
-    components: { PMenu }
+    components: { PBibleMenu }
   }
 </script>

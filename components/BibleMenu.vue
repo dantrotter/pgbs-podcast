@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<button on="tap:sidebar.open">Menu</button>
+	<div class="bible-menu">
+		<button on="tap:sidebar.open" class="bible-menu__button">find audio and notes by book</button>
 		<amp-sidebar id="sidebar" layout="nodisplay" side="right">
 			<nav>
 				<amp-accordion animate expand-single-section>

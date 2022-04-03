@@ -1,14 +1,14 @@
 <template>
 		<main>
-				<h1>{{ friendlyName }}</h1>
-				<ol>
+				<h1 class="book-header">{{ friendlyName }}</h1>
+				<ol class="book-list">
 						<li v-for="chapter in books[friendlyName]" :key="chapter">
-							<h2>Chapter {{ chapter.chapter }}</h2>
-							<ol>
+							<h2 class="small-header">Chapter {{ chapter.chapter }}</h2>
+							<ul>
 								<li v-for="study in chapter.studies" :key="study.title">
-									{{ study.title }} - <a :href="study.audio">audio</a> - <a :href="study.outline">outline</a>
+									{{ study.title }} - <a :href="study.audio" target="_blank">audio</a> - <a :href="study.outline">outline</a>
 								</li>
-							</ol>
+							</ul>
 						</li>
 				</ol>
 	</main>
