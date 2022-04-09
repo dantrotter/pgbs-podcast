@@ -1,6 +1,7 @@
 body {
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
 }
 
 a {
@@ -125,4 +126,28 @@ header {
 
 .bible-menu li {
   padding: .2em 0;
+}
+
+.doctrinal-statement {
+  list-style: none;
+  padding-left: 0;
+}
+
+.doctrinal-statement h2 {
+  margin-bottom: 0;
+}
+
+.doctrinal-statement li { counter-increment: mycounter; }
+.doctrinal-statement.start { counter-reset: mycounter; }
+
+.doctrinal-statement p {
+  padding-left: 1.5em;
+  position: relative;
+  margin-top: .2em;
+}
+
+.doctrinal-statement p:before {
+  content: counter(mycounter) '. ';
+  position: absolute;
+  left: 0;
 }

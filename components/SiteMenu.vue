@@ -1,13 +1,13 @@
 <template>
   <nav class="site-menu">
     <ul>
-      <li><a href="#">About Dan Trotter</a></li>
-      <li><a href="#">Doctrinal Statement</a></li>
-      <li><a href="#">Doctrinal Distinctives</a></li>
-      <li><a href="#">Sources Used</a></li>
-      <li><a href="#">Target Audience</a></li>
-      <li><a href="#">Modus Operandi</a></li>
-      <li><a href="#">Controversial Passages</a></li>
+      <li><NuxtLink to="/about">About Dan Trotter</NuxtLink></li>
+      <li><NuxtLink to="/doctrinal-statement">Doctrinal Statement</NuxtLink></li>
+      <li><NuxtLink to="/doctrinal-distinctives">Doctrinal Distinctives</NuxtLink></li>
+      <li><NuxtLink to="/sources">Sources Used</NuxtLink></li>
+      <li><NuxtLink to="/target-audience">Target Audience</NuxtLink></li>
+      <li><NuxtLink to="/modus-operandi">Modus Operandi</NuxtLink></li>
+      <li><NuxtLink to="/controversial-passages">Controversial Passages</NuxtLink></li>
     </ul>
   </nav>
 </template>
