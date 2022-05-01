@@ -3,8 +3,10 @@
 		<button on="tap:sidebar.open" class="bible-menu__button">find audio and notes by book</button>
 		<amp-sidebar id="sidebar" layout="nodisplay" side="right">
 			<nav>
-				<amp-accordion animate expand-single-section>
-					<section>
+				<!-- Temporarily Commented Accordion -->
+				<!-- <amp-accordion animate expand-single-section> -->
+
+					<!-- <section>
 						<h2>Old Testament</h2>
 						<amp-accordion animate expand-single-section>
 							<section>
@@ -25,7 +27,7 @@
 							</ol>
 							</section>
 						</amp-accordion>
-					</section>
+					</section> -->
 					<section>
 						<h2>New Testament</h2>
 						<ol>
@@ -58,7 +60,7 @@
 							<li><NuxtLink to="/revelation">Revelation</NuxtLink></li>
 						</ol>
 					</section>
-				</amp-accordion>
+				<!-- </amp-accordion> -->
 			</nav>
 		</amp-sidebar>
 	</div>

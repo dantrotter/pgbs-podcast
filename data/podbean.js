@@ -20276,7 +20276,7 @@ feed.channel.item.forEach(item => {
       .replace('1Corinthians', '1 Corinthians')
       .replace('2Timothy', '2 Timothy');
    const mp3 = item.enclosure['@url'];
-   const outline = mp3.substr(mp3.lastIndexOf('/') + 1).replace('.mp3', '.doc');
+   // const outline = mp3.substr(mp3.lastIndexOf('/') + 1).replace('.mp3', '.doc');
    const parts = title.split(' ');
    let bookName;
    let bookChapter;
@@ -20294,7 +20294,7 @@ feed.channel.item.forEach(item => {
    const study = {
       title: title, 
       audio: mp3, 
-      outline: outline,
+      // outline: outline,
       verse: verse ? verse : 0
    }
 
@@ -20329,4 +20329,4 @@ for (const book in books) {
    }
  }
 
-fs.writeFile('data/books.js', `export default ${JSON.stringify(books, null, 2)}`, function(){console.log('done')});
+fs.writeFile('data/audio.js', `export default ${JSON.stringify(books, null, 2)}`, function(){console.log('done')});
