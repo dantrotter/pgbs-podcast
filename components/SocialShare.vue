@@ -34,12 +34,12 @@
     <li>
       <amp-social-share
         type="gettr"
-        data-share-endpoint="https://parler.com/new-post"
+        data-share-endpoint="https://gettr.com/share"
         :data-param-text="encodeURIComponent(title)"
         :data-param-url="encodeURIComponent(url)"
         width="20"
         height="20"
-        aria-label="Share on Parler"
+        aria-label="Share on Gettr"
       >
         <img src="~/static/social/gettr.png" alt="Gettr" />
       </amp-social-share>

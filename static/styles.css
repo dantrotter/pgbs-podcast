@@ -9,7 +9,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -87,9 +87,8 @@ header {
 }
 
 .bible-menu__button {
-  border: 1px solid #73000A;
-  background: white;
-  color: #73000A;
+  background: #73000A;
+  color: white;
   padding: .75em 1em;
   font-size: 16px;
   cursor: pointer;
