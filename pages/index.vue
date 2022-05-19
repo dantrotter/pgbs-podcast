@@ -6,12 +6,9 @@
         <p-site-menu />
       </div>
       <div>
-        <amp-youtube
-          data-videoid="3z5Vi2vrnok"
-          layout="responsive"
-          width="480"
-          height="270"
-        ></amp-youtube>
+        <a href="https://www.youtube.com/watch?v=3z5Vi2vrnok">
+          <img src="~/static/DT_mug_YouTubeThumbnail.png" />
+        </a>
       </div>
       <div>
         <ul class="benefit-bullets">

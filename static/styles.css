@@ -8,6 +8,9 @@ a {
   color: #73000A;
 }
 
+img {
+  max-width: 100%;
+}
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -92,6 +95,7 @@ header {
   padding: .75em 1em;
   font-size: 16px;
   cursor: pointer;
+  min-width: 323px;
 }
 
 /* book */
