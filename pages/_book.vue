@@ -8,7 +8,7 @@
 
       <div v-if="this.$route.params.book === 'about'">
         <h1>About Dan Trotter</h1>
-        <p>An ex-lawyer, I have been a college professor of Business Administration in the USA and in China. My ministry interests are home church (in the USA and in China), personal evangelism and discipleship in China, and teaching. For fourteen years I helped sponsor the annual Southern House Church Conference.  I hold degrees from the University of South Carolina (BA History, BA Economics, JD-MBA, PhD in Business Administration) and a MA in Church History (Trinity Evangelical Divinity School.) I have been married to my wife Linda since November 26, 1975, and have three children and six grandchildren. My interests outside of studying the Bible are history, baseball, and politics.</p>
+        <p>An ex-lawyer, I have been a college professor of Business Administration in the USA and in China. My ministry interests are home church (in the USA and in China), personal evangelism and discipleship in China, and teaching. For fourteen years I helped sponsor the annual Southern House Church Conference.  I hold degrees from the University of South Carolina (BA History, BA Economics, JD-MBA, PhD in Business Administration) and a MA in Church History (Trinity Evangelical Divinity School.) I have been married to my wife Linda since November 26, 1975, and have three children and six grandchildren. My interests outside of studying the Bible are history, baseball, basketball, and politics.</p>
       </div>
 
       <div v-else-if="this.$route.params.book === 'doctrinal-statement'">
