@@ -9,6 +9,8 @@
         <a href="https://www.youtube.com/watch?v=3z5Vi2vrnok">
           <img src="~/static/DT_mug_YouTubeThumbnail.png" />
         </a>
+        <p> <font size="5">Podcasts and detailed notes for every book are here at <a href="www.prettygoodbiblestudies.org"><center>prettygoodbiblestudies.org</center></a></font>
+       </p>
       </div>
       <div>
         <ul class="benefit-bullets">
