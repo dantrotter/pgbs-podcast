@@ -54,6 +54,7 @@ header {
 
 .benefit-bullets {
   margin: 0 0 1rem;
+  padding-left: 17px;
 }
 
 .benefit-bullets li {
@@ -89,13 +90,34 @@ header {
   height: 100%;
 }
 
+.bible-menu {
+  width: 25%;
+  min-width: 160px;
+  margin-left: 20px;
+}
+
 .bible-menu__button {
   background: #73000A;
   color: white;
   padding: .75em 1em;
   font-size: 16px;
   cursor: pointer;
-  min-width: 323px;
+  width: 100%;
+}
+
+@media (max-width: 440px) {
+
+  header {
+    display: block;
+  }
+
+  .bible-menu {
+    width: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+
 }
 
 /* book */
