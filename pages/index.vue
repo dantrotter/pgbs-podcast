@@ -10,6 +10,9 @@
         <a href="https://www.youtube.com/watch?v=3z5Vi2vrnok">
           <img src="~/static/DT_mug_YouTubeThumbnail.png" />
         </a>
+        <div class="podbean">
+          <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
+        </div>
       </div>
       <div>
         <ul class="benefit-bullets">
@@ -26,7 +29,6 @@
         <h2 class="small-header">Comments? Corrections?</h2>
         <a href="mailto:prettygoodbiblestudies@gmail.com">prettygoodbiblestudies@gmail.com</a>
         <hr>
-        <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
       </div>
     </div>
   </div>

@@ -90,6 +90,10 @@ header {
   height: 100%;
 }
 
+.podbean {
+  text-align: center;
+}
+
 .bible-menu {
   width: 25%;
   min-width: 160px;
