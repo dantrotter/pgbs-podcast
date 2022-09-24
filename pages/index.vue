@@ -13,11 +13,8 @@
         <div class="third-party-links">
           <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
           <a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists"><img src="~/static/AvailableOnPodbean.png" /></a>
-
         </div>
-         
       </div>
-
       <div>
         <ul class="benefit-bullets">
           <li>Stream or download for free, ad-free</li>
