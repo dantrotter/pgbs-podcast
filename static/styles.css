@@ -90,8 +90,18 @@ header {
   height: 100%;
 }
 
-.podbean {
+.YouTubeVideos {
+  border: rgb(165, 165, 165) solid 1px;
+}
+
+.third-party-links {
   text-align: center;
+  margin-top: 10px;
+}
+
+.third-party-links a {
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .bible-menu {
