@@ -1,6 +1,6 @@
 <template>
 	<div class="bible-menu">
-		<button on="tap:sidebar.open" class="bible-menu__button">find audio and notes by book</button>
+		<button on="tap:sidebar.open" class="bible-menu__button">find audio and STUDY NOTES by book</button>
 		<amp-sidebar id="sidebar" layout="nodisplay" side="right">
 			<nav>
 				<!-- Temporarily Commented Accordion -->
