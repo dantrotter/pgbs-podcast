@@ -12,7 +12,7 @@
         </a>
         <div class="third-party-links">
           <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
-          <a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists"><img src="~/static/AvailableOnPodbean.png" /></a>
+          <a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists"><img src="~/static/PlaylistButton.png" /></a>
         </div>
       </div>
       <div>
