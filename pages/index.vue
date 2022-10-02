@@ -19,6 +19,13 @@
         <ul class="benefit-bullets">
           <li><a href="https://dantrotter.podbean.com">Podbean podcasts</a> covering every verse of the NT (OT is under construction)</li>
           <li><a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists">YouTube playlists</a> on five important theological topics</li>
+            <ul>
+              <li>Charismata</li>
+              <li>Doctrines of Grace</li>
+              <li>House Church Ecclesiology</li>
+              <li>New Covenant Theology</li>
+              <li>Orthodox Preterism</li>
+            </ul>
           <li>Stream or download for free, ad-free</li>
           <li>Thousands of hours of research compiled into 40-minute audios</li>
           <li>High view of Scripture</li>
