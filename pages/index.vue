@@ -14,8 +14,8 @@
           <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
           <a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists"><img src="~/static/PlaylistButton.png" /></a>
         </div>
-        <div class="blurb">
-            <p>"This is the best full overview of the New Testament I have ever seen. I have been through Bible school, lived on the mission field for 18 years, did crusades, held pastors seminars, run medical clinics and started short term Bible schools. Nobody tries to cover everything like PGBS does . . . PGBS really does a great job covering everything! 10 ⭐’s from me!" – GG</p>
+        <div class="quote">
+            <p>"This is the best full overview of the New Testament I have ever seen. I have been through Bible school, lived on the mission field for 18 years, did crusades, held pastors seminars, run medical clinics and started short-term Bible schools. Nobody tries to cover everything like PGBS does . . . PGBS really does a great job covering everything! 10 ⭐’s from me!" – GG</p>
         </div>
       </div>
       <div>

@@ -201,3 +201,14 @@ header {
   margin-right: .5em;
   vertical-align: middle;
 }
+.quote::before { 
+  display:  block;
+  font-size: 6em;
+  color: #73000a;
+  content: '\201c';
+  height: .6em;
+}
+body {
+    max-width: 500px;
+    margin: 40px auto;
+}
