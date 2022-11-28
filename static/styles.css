@@ -203,7 +203,7 @@ header {
 }
 .quote::before { 
   display:  block;
-  font-size: 6em;
+  font-size: 12em;
   color: #73000a;
   content: '\201c';
   height: .6em;
