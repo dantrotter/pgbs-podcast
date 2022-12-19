@@ -4,7 +4,7 @@
     <div class="layout">
       <div>
         <p-site-menu />
-        <img src="~/static/Podbean_5000Downloads.png"/>
+        <img src="~/static/Podbean_10000Downloads.png"/>
       </div>
       <div>
         <a href="https://www.youtube.com/watch?v=3z5Vi2vrnok">
