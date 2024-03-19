@@ -11,7 +11,7 @@
           <img src="~/static/DT_mug_YouTubeThumbnail.png" class="YouTubeVideos" />
         </a>
         <div class="third-party-links">
-          <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
+          <p-podbean-links />
           <a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists"><img src="~/static/PlaylistButton.png" /></a>
         </div>
         <div class="quote">
@@ -20,7 +20,7 @@
       </div>
       <div>
         <ul class="benefit-bullets">
-          <li><a href="https://dantrotter.podbean.com">Podbean podcasts</a> covering every verse of the NT (OT is under construction)</li>
+          <li>Podbean podcasts covering every verse of the <a href="https://dantrotter.podbean.com">NT</a> and <a href="https://pgbsoldtestament.podbean.com/">OT</a></li>
           <li><a href="https://www.youtube.com/channel/UCvdhN-S_y117F6p0V1nGR1Q/playlists">YouTube playlists</a> on five important theological topics</li>
             <ul>
               <li>Charismata</li>
@@ -50,10 +50,11 @@
 import PHeader from '/components/Header.vue';
 import PSiteMenu from '/components/SiteMenu.vue';
 import PSocialShare from '/components/SocialShare.vue';
+import PPodbeanLinks from '/components/PodbeanLinks.vue';
 
 export default {
   name: 'IndexPage',
-  components: { PHeader, PSiteMenu, PSocialShare },
+  components: { PHeader, PSiteMenu, PSocialShare, PPodbeanLinks },
   head() {
     return {
       title: "PGBS - Home"
