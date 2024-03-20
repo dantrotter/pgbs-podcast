@@ -3,32 +3,51 @@
 		<button on="tap:sidebar.open" class="bible-menu__button">STUDY NOTES and audio here</button>
 		<amp-sidebar id="sidebar" layout="nodisplay" side="right">
 			<nav>
-				<!-- Temporarily Commented Accordion -->
-				<!-- <amp-accordion animate expand-single-section> -->
+				<amp-accordion animate expand-single-section>
 
-					<!-- <section>
-						<h2>Old Testament</h2>
-						<amp-accordion animate expand-single-section>
-							<section>
-							<h3>Pentateuch</h3>
-							<ol>
-								<li><NuxtLink to="/genesis">Genesis</NuxtLink></li>
-								<li><NuxtLink to="/exodus">Exodus</NuxtLink></li>
-								<li><NuxtLink to="/leviticus">Leviticus</NuxtLink></li>
-								<li><NuxtLink to="/numbers">Number</NuxtLink></li>
-								<li><NuxtLink to="/deuteronomy">Deuteronomy</NuxtLink></li>
-							</ol>
-							</section>
-							<section>
-							<h3>Prophets</h3>
-							<ol>
-								<li><NuxtLink to="/isaiah">Isaiah</NuxtLink></li>
-								<li><NuxtLink to="/ezekiel">Ezekiel</NuxtLink></li>
-							</ol>
-							</section>
-						</amp-accordion>
-					</section> -->
 					<section>
+						<h2>Old Testament</h2>
+						<ol>
+							<li><NuxtLink to="/genesis">Genesis</NuxtLink></li>
+							<li><NuxtLink to="/exodus">Exodus</NuxtLink></li>
+							<li><NuxtLink to="/leviticus">Leviticus</NuxtLink></li>
+							<li><NuxtLink to="/numbers">Number</NuxtLink></li>
+							<li><NuxtLink to="/deuteronomy">Deuteronomy</NuxtLink></li>
+							<li><NuxtLink to="/joshua">Joshua</NuxtLink></li>
+							<li><NuxtLink to="/judges">Judges</NuxtLink></li>
+							<li><NuxtLink to="/ruth">Ruth</NuxtLink></li>
+							<li><NuxtLink to="/1-samuel">1 Samuel</NuxtLink></li>
+							<li><NuxtLink to="/2-samuel">2 Samuel</NuxtLink></li>
+							<li><NuxtLink to="/1-kings">1 Kings</NuxtLink></li>
+							<li><NuxtLink to="/2-kings">2 Kings</NuxtLink></li>
+							<li><NuxtLink to="/ezra">Ezra</NuxtLink></li>
+							<li><NuxtLink to="/nehemiah">Nehemiah</NuxtLink></li>
+							<li><NuxtLink to="/esther">Esther</NuxtLink></li>
+							<li><NuxtLink to="/job">Job</NuxtLink></li>
+							<li><NuxtLink to="/psalms">Psalms</NuxtLink></li>
+							<li><NuxtLink to="/proverbs">Proverbs</NuxtLink></li>
+							<li><NuxtLink to="/ecclesiastes">Ecclesiastes</NuxtLink></li>
+							<li><NuxtLink to="/song-of-solomon">Song of Solomon</NuxtLink></li>
+							<li><NuxtLink to="/isaiah">Isaiah</NuxtLink></li>
+							<li><NuxtLink to="/Jeremiah">Jeremiah</NuxtLink></li>
+							<li><NuxtLink to="/lamentations">Lamentations</NuxtLink></li>
+							<li><NuxtLink to="/ezekiel">Ezekiel</NuxtLink></li>
+							<li><NuxtLink to="/daniel">Daniel</NuxtLink></li>
+							<li><NuxtLink to="/hosea">Hosea</NuxtLink></li>
+							<li><NuxtLink to="/joel">Joel</NuxtLink></li>
+							<li><NuxtLink to="/amos">Amos</NuxtLink></li>
+							<li><NuxtLink to="/obadiah">Obadiah</NuxtLink></li>
+							<li><NuxtLink to="/jonah">Jonah</NuxtLink></li>
+							<li><NuxtLink to="/micah">Micah</NuxtLink></li>
+							<li><NuxtLink to="/nahum">Nahum</NuxtLink></li>
+							<li><NuxtLink to="/habakkuk">Habakkuk</NuxtLink></li>
+							<li><NuxtLink to="/zephaniah">Zephaniah</NuxtLink></li>
+							<li><NuxtLink to="/haggai">Haggai</NuxtLink></li>
+							<li><NuxtLink to="/zechariah">Zechariah</NuxtLink></li>
+							<li><NuxtLink to="/malachi">Malachi</NuxtLink></li>
+						</ol>
+					</section>
+					<section expanded>
 						<h2>New Testament</h2>
 						<ol>
 							<li><NuxtLink to="/matthew">Matthew</NuxtLink></li>
@@ -60,7 +79,7 @@
 							<li><NuxtLink to="/revelation">Revelation</NuxtLink></li>
 						</ol>
 					</section>
-				<!-- </amp-accordion> -->
+				</amp-accordion>
 			</nav>
 		</amp-sidebar>
 	</div>

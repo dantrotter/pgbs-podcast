@@ -100,7 +100,7 @@
 
       <div v-else>
         <p-book :name="this.$route.params.book" />
-        <a href="https://dantrotter.podbean.com"><img src="~/static/AvailableOnPodbean.png" /></a>
+        <p-podbean-links />
       </div>
 
       <div>
@@ -117,10 +117,11 @@ import PHeader from '/components/Header.vue';
 import PBook from '/components/Book.vue';
 import PSiteMenu from '/components/SiteMenu.vue';
 import PSocialShare from '/components/SocialShare.vue';
+import PPodbeanLinks from '/components/PodbeanLinks.vue';
 
 export default {
   name: 'Book',
-  components: { PHeader, PBook, PSiteMenu, PSocialShare },
+  components: { PHeader, PBook, PSiteMenu, PSocialShare, PPodbeanLinks },
   head() {
     return {
       title: this.title

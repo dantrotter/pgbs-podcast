@@ -97,17 +97,51 @@ header {
 .third-party-links {
   text-align: center;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
-.third-party-links a {
-  margin-left: 3px;
-  margin-right: 3px;
+.third-party-links img {
+  display: block;
 }
+
+.podbean-links {
+  display: inline-flex;
+  border: 1.5px solid #cecece;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 1px;
+  gap: 8px;
+  align-items: center;
+}
+
+.podbean-links img {
+  margin-right: 5px;
+}
+
+.podbean-links a {
+  font-weight: bold;
+}
+
 
 .bible-menu {
   width: 25%;
   min-width: 160px;
   margin-left: 20px;
+}
+
+.bible-menu h2 {
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.bible-menu h2:hover {
+  background: #ddd;
+}
+
+.bible-menu [id="sidebar"] {
+  scrollbar-gutter: stable;
 }
 
 .bible-menu__button {
@@ -208,4 +242,3 @@ header {
   content: '\201c';
   height: .6em;
 }
-
